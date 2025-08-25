@@ -1,6 +1,6 @@
-# Beatrees dataset
+# BeaTrees Dataset
 
-## Project description
+## Description
 This dataset contains images from different CARLA towns to create a synthetic dataset of front-view trees. It includes images under different weather conditions such as: sunny, nighttime and rain, in which different type of trees can be seen.
 
 It contains 9670 trees instances devided in 2082 images.
@@ -63,8 +63,8 @@ Each folder is named after the town where the secuence was recorded and the meth
 The annotation files are constructed with the Yolo format, each annotation file contains information of the class (always 0 as all the trees are marked under the same tag), x-axis center position, y-axis center position, width and height. 
 
 ## How to access the data?
-/beatrees/town_xx_vx_xxxxx/annotations ---> Contains the annotations of all the images
+/BeaTrees/town_xx_vx_xxxxx/annotations ---> Contains the annotations of all the images
 
-/beatrees/town_xx_vx_xxxxx/annotations_norm ---> Contains the annotations normalised in yolo format
+/BeaTrees/town_xx_vx_xxxxx/annotations_norm ---> Contains the annotations normalised in yolo format
 
-/beatrees/town_xx_vx_xxxxx/images ---> Contains the image of the secuence
+/BeaTrees/town_xx_vx_xxxxx/images ---> Contains the image of the secuence
